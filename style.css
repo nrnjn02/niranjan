@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    width: auto;
+    background-color: rgb(42, 247, 10);
+}
+p, li{
+    font-family: 'AR One Sans', sans-serif;
+}
+h1{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 65px;
+}
+header{
+    text-align: center;
+    background-color: #0089de;
+    padding: 10px 15px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 240px;
+}
+a, li {
+    color: rgb(81, 50, 35);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+menu{
+    list-style: none;
+}
+
+header > nav > menu{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+header > nav > menu >li{
+    padding: 10px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.video .video-1 iframe{
+    width: 1260px;
+    height: 580px;
+}
+
+.lyrics{
+    display: flex;
+    justify-content: center;
+}
+.lyrics > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Rass{
+    font-size: 45px;
+    color: #bd1212;
+}
+.haha{
+    font-size: 45px;
+    color: #bd1212; 
+}
+.letsgo{
+    font-size: 30px;
+    color: darkcyan;
+}
+.jeep{
+    font-size: 25px;
+    color: #65205c;
+}
+
+.dodge{
+    font-size: 20px;
+    color: crimson;
+}
+
+div:first-of-type p::first-line {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+div:first-of-type p::first-letter {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+
+.head a:hover{
+    color: #ffffff;
+}
+header a:hover{
+    color: #ffffff;
+}
+
+.dodge:hover{
+    color: yellowgreen;
+
+}
+.jeep:hover{
+    color: plum;
+}
+.letsgo:hover{
+    color: aqua;
+}
+.haha:hover{
+    color: coral;
+}
+.Rass:hover{
+    color: red;
+}
+div p:hover{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer h2, footer h3{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div h3{
+    margin-left: 10px;
+}
